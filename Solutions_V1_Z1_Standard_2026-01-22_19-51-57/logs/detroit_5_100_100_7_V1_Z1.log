@@ -1,0 +1,68 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/detroit_5_100_100_7.txt
+Problem version = 1
+Number of zones = 1
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_19-51-57/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 2590 rows; 10000 cols; 4219 nonzeros; 10000 integer variables (10000 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [4e+02, 4e+02]
+Presolving model
+5 rows, 1148 cols, 1634 nonzeros  0s
+5 rows, 53 cols, 140 nonzeros  0s
+5 rows, 52 cols, 139 nonzeros  0s
+Presolve reductions: rows 5(-2585); columns 52(-9948); nonzeros 139(-4080) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   5 rows
+   52 cols (10 binary, 42 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   139 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            509                Large        0      0      0         0     0.0s
+ J       0       0         0   0.00%   -inf            455                Large        0      0      0         0     0.0s
+ S       0       0         0   0.00%   0               16               100.00%        0      0      0         0     0.0s
+         1       0         1 100.00%   15.11111111     16                 5.56%        0      0      0         1     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      16
+  Dual bound        16
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.000441352526347
+  Solution status   feasible
+                    16 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.02
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     1
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+
+dataFileName = detroit_5_100_100_7
+solutionValue = 16.0
+cpuTime = 0.5683760643005371
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_19-51-57/solutions/detroit_5_100_100_7_V1_Z1.sol

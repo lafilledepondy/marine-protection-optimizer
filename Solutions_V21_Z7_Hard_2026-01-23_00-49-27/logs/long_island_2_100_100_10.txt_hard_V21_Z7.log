@@ -1,0 +1,132 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/long_island_2_100_100_10.txt_hard.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-49-27/solutions
+------------------------------------
+Reading 2 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 80003 rows; 70007 cols; 344463 nonzeros; 70007 integer variables (70007 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+9738 rows, 68152 cols, 204456 nonzeros  0s
+2 rows, 9736 cols, 19472 nonzeros  0s
+2 rows, 59 cols, 118 nonzeros  0s
+0 rows, 0 cols, 0 nonzeros  0s
+Presolve reductions: rows 0(-80003); columns 0(-70007); nonzeros 0(-344463) - Reduced to empty
+Presolve: Optimal
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   3               3                  0.00%        0      0      0         0     0.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      3
+  Dual bound        3
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0
+  Solution status   feasible
+                    3 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.31
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0
+  LP iterations     0
+Status: ok
+Solve time: 2.59s
+Objective value: 3.0
+Number of protected sectors: 3
+Zone 6: [(25, 80), (75, 15), (90, 80)]
+
+dataFileName = long_island_2_100_100_10.txt_hard
+solutionValue = 3.0
+cpuTime = 3.462034225463867
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-49-27/solutions/long_island_2_100_100_10.txt_hard_V21_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/long_island_2_100_100_10.txt_hard.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-49-27/solutions
+------------------------------------
+Reading 2 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 80003 rows; 70007 cols; 344463 nonzeros; 70007 integer variables (70007 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+9738 rows, 68152 cols, 204456 nonzeros  0s
+2 rows, 9736 cols, 19472 nonzeros  0s
+2 rows, 59 cols, 118 nonzeros  0s
+0 rows, 0 cols, 0 nonzeros  0s
+Presolve reductions: rows 0(-80003); columns 0(-70007); nonzeros 0(-344463) - Reduced to empty
+Presolve: Optimal
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   3               3                  0.00%        0      0      0         0     0.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      3
+  Dual bound        3
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0
+  Solution status   feasible
+                    3 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.31
+  Max sub-MIP depth 0
+  Nodes             0
+  Repair LPs        0
+  LP iterations     0
+Status: ok
+Solve time: 2.59s
+Objective value: 3.0
+Number of protected sectors: 3
+Zone 6: [(25, 80), (75, 15), (90, 80)]
+
+dataFileName = long_island_2_100_100_10.txt_hard
+solutionValue = 3.0
+cpuTime = 3.462034225463867
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-49-27/solutions/long_island_2_100_100_10.txt_hard_V21_Z7.sol

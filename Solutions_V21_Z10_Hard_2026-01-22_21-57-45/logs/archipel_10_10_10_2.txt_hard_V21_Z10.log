@@ -1,0 +1,30 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/archipel_10_10_10_2.txt_hard.txt
+Problem version = 21
+Number of zones = 10
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_21-57-45/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+Traceback (most recent call last):
+  File "/home/melissa/Documents/ProjetOptim/marineopt/Code/solver.py", line 124, in <module>
+    solution = runMILPModelForVersion2_1(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/melissa/Documents/ProjetOptim/marineopt/Code/models.py", line 244, in runMILPModelForVersion2_1
+    results = solver.solve(model, tee=toPrint)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/melissa/monenv/lib/python3.12/site-packages/pyomo/contrib/appsi/base.py", line 1568, in solve
+    results: Results = super(LegacySolverInterface, self).solve(model)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/melissa/monenv/lib/python3.12/site-packages/pyomo/contrib/appsi/solvers/highs.py", line 297, in solve
+    res = self._solve(timer)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/melissa/monenv/lib/python3.12/site-packages/pyomo/contrib/appsi/solvers/highs.py", line 281, in _solve
+    return self._postsolve(timer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/melissa/monenv/lib/python3.12/site-packages/pyomo/contrib/appsi/solvers/highs.py", line 721, in _postsolve
+    raise RuntimeError(
+RuntimeError: A feasible solution was not found, so no solution can be loaded. If using the appsi.solvers.Highs interface, you can set opt.config.load_solution=False. If using the environ.SolverFactory interface, you can set opt.solve(model, load_solutions = False). Then you can check results.termination_condition and results.best_feasible_objective before loading a solution.

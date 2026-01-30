@@ -1,0 +1,74 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/long_island_10_30_30_10.txt_hard.txt
+Problem version = 1
+Number of zones = 1
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_19-58-12/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 30 rows; 900 cols; 8820 nonzeros; 900 integer variables (900 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+02, 4e+02]
+Presolving model
+10 rows, 880 cols, 8800 nonzeros  0s
+10 rows, 754 cols, 7540 nonzeros  0s
+Presolve reductions: rows 10(-20); columns 754(-146); nonzeros 7540(-1280) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   10 rows
+   754 cols (699 binary, 55 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   7540 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            880                Large        0      0      0         0     0.2s
+ J       0       0         0   0.00%   -inf            872                Large        0      0      0         0     0.2s
+ S       0       0         0   0.00%   0               6                100.00%        0      0      0         0     0.2s
+
+98.4% inactive integer columns, restarting
+Model after restart has 6 rows, 12 cols (12 bin., 0 int., 0 impl., 0 cont., 0 dom.fix.), and 70 nonzeros
+
+         0       0         0   0.00%   4.242189781     6                 29.30%        0      0      0         3     0.2s
+         0       0         0   0.00%   4.242189781     6                 29.30%        0      0      2         3     0.2s
+ H       0       0         0   0.00%   5               5                  0.00%      254     13      4        44     0.2s
+         1       0         1 100.00%   5               5                  0.00%      254     13      5        44     0.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      5
+  Dual bound        5
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.0045962878579
+  Solution status   feasible
+                    5 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.18
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     44
+                    0 (strong br.)
+                    41 (separation)
+                    0 (heuristics)
+
+dataFileName = long_island_10_30_30_10.txt_hard
+solutionValue = 5.0
+cpuTime = 0.2176501750946045
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_19-58-12/solutions/long_island_10_30_30_10.txt_hard_V1_Z1.sol

@@ -1,0 +1,34 @@
+----------- ARGUMENTS -----------
+Data file path = Data/Data/Experimentation\long_island_2_30_30_5.txt
+Problem version = 3
+Number of zones = 7
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = Experiments_V3_2026-01-23_11-47-29\solutions
+------------------------------------
+Reading 2 species
+Solver appsi_highs is available.
+
+dataFileName = long_island_2_30_30_5
+solutionValue = 5
+cpuTime = 186.17891883850098
+isFeasible = True
+Solution is written in the following file:  Experiments_V3_2026-01-23_11-47-29\solutions\long_island_2_30_30_5_V3_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = Data/Data/Experimentation\long_island_2_30_30_5.txt
+Problem version = 3
+Number of zones = 7
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = Experiments_V3_2026-01-23_11-47-29\solutions
+------------------------------------
+Reading 2 species
+Solver appsi_highs is available.
+
+dataFileName = long_island_2_30_30_5
+solutionValue = 5
+cpuTime = 186.17891883850098
+isFeasible = True
+Solution is written in the following file:  Experiments_V3_2026-01-23_11-47-29\solutions\long_island_2_30_30_5_V3_Z7.sol

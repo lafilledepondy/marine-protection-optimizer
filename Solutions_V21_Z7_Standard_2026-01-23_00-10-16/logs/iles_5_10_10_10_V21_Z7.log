@@ -1,0 +1,152 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/iles_5_10_10_10.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-10-16/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 806 rows; 707 cols; 5229 nonzeros; 707 integer variables (707 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+97 rows, 644 cols, 3822 nonzeros  0s
+5 rows, 92 cols, 454 nonzeros  0s
+5 rows, 90 cols, 444 nonzeros  0s
+Presolve reductions: rows 5(-801); columns 90(-617); nonzeros 444(-4785) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   5 rows
+   90 cols (88 binary, 2 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   444 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            92                 Large        0      0      0         0     0.0s
+ J       0       0         0   0.00%   -inf            90                 Large        0      0      0         0     0.0s
+ S       0       0         0   0.00%   0               4                100.00%        0      0      0         0     0.0s
+         1       0         1 100.00%   3.696766467     4                  7.58%        0      0      0         3     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      4
+  Dual bound        4
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.000373750246927
+  Solution status   feasible
+                    4 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.01
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     3
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 0.04s
+Objective value: 4.0
+Number of protected sectors: 4
+Zone 6: [(5, 5), (5, 6), (8, 3), (9, 9)]
+
+dataFileName = iles_5_10_10_10
+solutionValue = 4.0
+cpuTime = 0.04606175422668457
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-10-16/solutions/iles_5_10_10_10_V21_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/iles_5_10_10_10.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-10-16/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 806 rows; 707 cols; 5229 nonzeros; 707 integer variables (707 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+97 rows, 644 cols, 3822 nonzeros  0s
+5 rows, 92 cols, 454 nonzeros  0s
+5 rows, 90 cols, 444 nonzeros  0s
+Presolve reductions: rows 5(-801); columns 90(-617); nonzeros 444(-4785) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   5 rows
+   90 cols (88 binary, 2 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   444 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            92                 Large        0      0      0         0     0.0s
+ J       0       0         0   0.00%   -inf            90                 Large        0      0      0         0     0.0s
+ S       0       0         0   0.00%   0               4                100.00%        0      0      0         0     0.0s
+         1       0         1 100.00%   3.696766467     4                  7.58%        0      0      0         3     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      4
+  Dual bound        4
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.000373750246927
+  Solution status   feasible
+                    4 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.01
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     3
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 0.04s
+Objective value: 4.0
+Number of protected sectors: 4
+Zone 6: [(5, 5), (5, 6), (8, 3), (9, 9)]
+
+dataFileName = iles_5_10_10_10
+solutionValue = 4.0
+cpuTime = 0.04606175422668457
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-10-16/solutions/iles_5_10_10_10_V21_Z7.sol

@@ -1,0 +1,17 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/long_island_5_500_500_7.txt
+Problem version = 21
+Number of zones = 10
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_21-40-36/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+
+dataFileName = long_island_5_500_500_7
+solutionValue = 9.0
+cpuTime = 222.0874161720276
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_21-40-36/solutions/long_island_5_500_500_7_V21_Z10.sol

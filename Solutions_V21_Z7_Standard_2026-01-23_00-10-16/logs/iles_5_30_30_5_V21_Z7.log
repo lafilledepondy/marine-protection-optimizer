@@ -1,0 +1,166 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/iles_5_30_30_5.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-10-16/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 7206 rows; 6307 cols; 25522 nonzeros; 6307 integer variables (6307 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+571 rows, 3962 cols, 10794 nonzeros  0s
+5 rows, 566 cols, 976 nonzeros  0s
+5 rows, 91 cols, 232 nonzeros  0s
+5 rows, 91 cols, 232 nonzeros  0s
+Presolve reductions: rows 5(-7201); columns 91(-6216); nonzeros 232(-25290) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   5 rows
+   91 cols (21 binary, 70 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   232 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            566                Large        0      0      0         0     0.3s
+ J       0       0         0   0.00%   -inf            472                Large        0      0      0         0     0.3s
+ S       0       0         0   0.00%   0               35               100.00%        0      0      0         0     0.3s
+
+78.0% inactive integer columns, restarting
+Model after restart has 2 rows, 19 cols (7 bin., 12 int., 0 impl., 0 cont., 0 dom.fix.), and 34 nonzeros
+
+         0       0         0   0.00%   33.58119658     35                 4.05%        0      0      0         4     0.3s
+ R       0       0         0 100.00%   33.58119658     34                 1.23%        0      0      0         4     0.3s
+         1       0         1 100.00%   34              34                 0.00%        0      0      0         4     0.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      34
+  Dual bound        34
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.000580612133437
+  Solution status   feasible
+                    34 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.27
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     4
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 0.50s
+Objective value: 34.0
+Number of protected sectors: 34
+Zone 6: [(1, 28), (4, 4), (6, 24), (7, 23), (7, 24), (7, 25), (8, 24), (21, 4), (22, 2), (22, 3), (22, 4), (22, 5), (23, 3), (23, 4), (24, 1), (24, 2), (24, 4), (24, 9), (25, 24), (26, 23), (26, 24), (26, 25), (27, 22), (27, 23), (27, 24), (27, 25), (27, 26), (27, 28), (28, 23), (28, 24), (28, 25), (28, 27), (28, 28), (29, 24)]
+
+dataFileName = iles_5_30_30_5
+solutionValue = 34.0
+cpuTime = 0.5999062061309814
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-10-16/solutions/iles_5_30_30_5_V21_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/iles_5_30_30_5.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-10-16/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 7206 rows; 6307 cols; 25522 nonzeros; 6307 integer variables (6307 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+571 rows, 3962 cols, 10794 nonzeros  0s
+5 rows, 566 cols, 976 nonzeros  0s
+5 rows, 91 cols, 232 nonzeros  0s
+5 rows, 91 cols, 232 nonzeros  0s
+Presolve reductions: rows 5(-7201); columns 91(-6216); nonzeros 232(-25290) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   5 rows
+   91 cols (21 binary, 70 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   232 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            566                Large        0      0      0         0     0.3s
+ J       0       0         0   0.00%   -inf            472                Large        0      0      0         0     0.3s
+ S       0       0         0   0.00%   0               35               100.00%        0      0      0         0     0.3s
+
+78.0% inactive integer columns, restarting
+Model after restart has 2 rows, 19 cols (7 bin., 12 int., 0 impl., 0 cont., 0 dom.fix.), and 34 nonzeros
+
+         0       0         0   0.00%   33.58119658     35                 4.05%        0      0      0         4     0.3s
+ R       0       0         0 100.00%   33.58119658     34                 1.23%        0      0      0         4     0.3s
+         1       0         1 100.00%   34              34                 0.00%        0      0      0         4     0.3s
+
+Solving report
+  Status            Optimal
+  Primal bound      34
+  Dual bound        34
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.000580612133437
+  Solution status   feasible
+                    34 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.27
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     4
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 0.50s
+Objective value: 34.0
+Number of protected sectors: 34
+Zone 6: [(1, 28), (4, 4), (6, 24), (7, 23), (7, 24), (7, 25), (8, 24), (21, 4), (22, 2), (22, 3), (22, 4), (22, 5), (23, 3), (23, 4), (24, 1), (24, 2), (24, 4), (24, 9), (25, 24), (26, 23), (26, 24), (26, 25), (27, 22), (27, 23), (27, 24), (27, 25), (27, 26), (27, 28), (28, 23), (28, 24), (28, 25), (28, 27), (28, 28), (29, 24)]
+
+dataFileName = iles_5_30_30_5
+solutionValue = 34.0
+cpuTime = 0.5999062061309814
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-10-16/solutions/iles_5_30_30_5_V21_Z7.sol

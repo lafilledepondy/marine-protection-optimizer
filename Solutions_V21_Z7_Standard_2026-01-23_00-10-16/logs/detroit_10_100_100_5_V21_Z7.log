@@ -1,0 +1,168 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/detroit_10_100_100_5.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-10-16/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 80011 rows; 70007 cols; 205877 nonzeros; 70007 integer variables (70007 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+1134 rows, 7868 cols, 21833 nonzeros  0s
+10 rows, 1124 cols, 1995 nonzeros  1s
+10 rows, 53 cols, 207 nonzeros  1s
+10 rows, 52 cols, 206 nonzeros  1s
+Presolve reductions: rows 10(-80001); columns 52(-69955); nonzeros 206(-205671) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   10 rows
+   52 cols (11 binary, 41 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   206 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            488                Large        0      0      0         0     1.5s
+ J       0       0         0   0.00%   -inf            434                Large        0      0      0         0     1.5s
+ S       0       0         0   0.00%   0               38               100.00%        0      0      0         0     1.5s
+
+80.8% inactive integer columns, restarting
+Model after restart has 2 rows, 9 cols (4 bin., 5 int., 0 impl., 0 cont., 0 dom.fix.), and 12 nonzeros
+
+         0       0         0   0.00%   36.65           38                 3.55%        0      0      0         3     1.5s
+         0       0         0   0.00%   36.65           38                 3.55%        0      0      2         3     1.5s
+ S       0       0         0 100.00%   36.65           37                 0.95%        4      1      2         3     1.5s
+         1       0         1 100.00%   37              37                 0.00%        4      1      2         5     1.5s
+
+Solving report
+  Status            Optimal
+  Primal bound      37
+  Dual bound        37
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.00277810089958
+  Solution status   feasible
+                    37 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            1.49
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     5
+                    0 (strong br.)
+                    2 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 4.40s
+Objective value: 37.0
+Number of protected sectors: 37
+Zone 6: [(5, 94), (5, 95), (5, 96), (6, 95), (15, 15), (25, 80), (26, 80), (73, 15), (74, 14), (74, 15), (74, 16), (75, 13), (75, 14), (75, 15), (75, 16), (75, 17), (76, 14), (76, 15), (76, 16), (77, 15), (80, 5), (80, 33), (81, 5), (88, 80), (89, 79), (89, 80), (89, 81), (90, 78), (90, 79), (90, 80), (90, 81), (90, 82), (91, 79), (91, 80), (91, 81), (92, 80), (95, 95)]
+
+dataFileName = detroit_10_100_100_5
+solutionValue = 37.0
+cpuTime = 6.37822699546814
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-10-16/solutions/detroit_10_100_100_5_V21_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/detroit_10_100_100_5.txt
+Problem version = 21
+Number of zones = 7
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-23_00-10-16/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 80011 rows; 70007 cols; 205877 nonzeros; 70007 integer variables (70007 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+1134 rows, 7868 cols, 21833 nonzeros  0s
+10 rows, 1124 cols, 1995 nonzeros  1s
+10 rows, 53 cols, 207 nonzeros  1s
+10 rows, 52 cols, 206 nonzeros  1s
+Presolve reductions: rows 10(-80001); columns 52(-69955); nonzeros 206(-205671) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   10 rows
+   52 cols (11 binary, 41 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   206 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            488                Large        0      0      0         0     1.5s
+ J       0       0         0   0.00%   -inf            434                Large        0      0      0         0     1.5s
+ S       0       0         0   0.00%   0               38               100.00%        0      0      0         0     1.5s
+
+80.8% inactive integer columns, restarting
+Model after restart has 2 rows, 9 cols (4 bin., 5 int., 0 impl., 0 cont., 0 dom.fix.), and 12 nonzeros
+
+         0       0         0   0.00%   36.65           38                 3.55%        0      0      0         3     1.5s
+         0       0         0   0.00%   36.65           38                 3.55%        0      0      2         3     1.5s
+ S       0       0         0 100.00%   36.65           37                 0.95%        4      1      2         3     1.5s
+         1       0         1 100.00%   37              37                 0.00%        4      1      2         5     1.5s
+
+Solving report
+  Status            Optimal
+  Primal bound      37
+  Dual bound        37
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.00277810089958
+  Solution status   feasible
+                    37 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            1.49
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     5
+                    0 (strong br.)
+                    2 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 4.40s
+Objective value: 37.0
+Number of protected sectors: 37
+Zone 6: [(5, 94), (5, 95), (5, 96), (6, 95), (15, 15), (25, 80), (26, 80), (73, 15), (74, 14), (74, 15), (74, 16), (75, 13), (75, 14), (75, 15), (75, 16), (75, 17), (76, 14), (76, 15), (76, 16), (77, 15), (80, 5), (80, 33), (81, 5), (88, 80), (89, 79), (89, 80), (89, 81), (90, 78), (90, 79), (90, 80), (90, 81), (90, 82), (91, 79), (91, 80), (91, 81), (92, 80), (95, 95)]
+
+dataFileName = detroit_10_100_100_5
+solutionValue = 37.0
+cpuTime = 6.37822699546814
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-23_00-10-16/solutions/detroit_10_100_100_5_V21_Z7.sol

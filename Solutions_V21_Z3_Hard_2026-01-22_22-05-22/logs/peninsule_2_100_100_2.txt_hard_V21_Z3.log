@@ -1,0 +1,154 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/peninsule_2_100_100_2.txt_hard.txt
+Problem version = 21
+Number of zones = 3
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-22_22-05-22/solutions
+------------------------------------
+Reading 2 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 40003 rows; 30003 cols; 141012 nonzeros; 30003 integer variables (30003 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+9003 rows, 27003 cols, 81009 nonzeros  0s
+2 rows, 9001 cols, 18002 nonzeros  0s
+2 rows, 44 cols, 88 nonzeros  0s
+2 rows, 27 cols, 54 nonzeros  0s
+Presolve reductions: rows 2(-40001); columns 27(-29976); nonzeros 54(-140958) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   2 rows
+   27 cols (11 binary, 16 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   54 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            148                Large        0      0      0         0     0.2s
+ J       0       0         0   0.00%   -inf            70                 Large        0      0      0         0     0.2s
+ S       0       0         0   0.00%   0               39               100.00%        0      0      0         0     0.2s
+         1       0         1 100.00%   38.05           39                 2.44%        0      0      0         4     0.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      39
+  Dual bound        39
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.00161964618243
+  Solution status   feasible
+                    39 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.16
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     4
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 1.26s
+Objective value: 39.0
+Number of protected sectors: 39
+Zone 2: [(3, 95), (4, 94), (4, 95), (4, 96), (5, 93), (5, 94), (5, 95), (5, 96), (5, 97), (6, 94), (6, 95), (6, 96), (7, 95), (25, 79), (25, 80), (25, 81), (49, 60), (50, 60), (50, 61), (51, 60), (94, 59), (94, 60), (95, 5), (95, 13), (95, 48), (95, 65), (95, 77), (96, 36), (96, 80), (96, 95), (97, 25), (97, 36), (97, 51), (98, 12), (98, 21), (98, 75), (98, 98), (99, 41), (99, 47)]
+
+dataFileName = peninsule_2_100_100_2.txt_hard
+solutionValue = 39.0
+cpuTime = 1.710693597793579
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-22_22-05-22/solutions/peninsule_2_100_100_2.txt_hard_V21_Z3.sol
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/peninsule_2_100_100_2.txt_hard.txt
+Problem version = 21
+Number of zones = 3
+Time limit = 300
+Verbose output = True
+Solver name = highs
+Solution folder path = Solutions_2026-01-22_22-05-22/solutions
+------------------------------------
+Reading 2 species
+Solver appsi_highs is available.
+Considering version 2 of the problem
+Solving Version 2.1 with solver: appsi_highs
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 40003 rows; 30003 cols; 141012 nonzeros; 30003 integer variables (30003 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 4e+02]
+Presolving model
+9003 rows, 27003 cols, 81009 nonzeros  0s
+2 rows, 9001 cols, 18002 nonzeros  0s
+2 rows, 44 cols, 88 nonzeros  0s
+2 rows, 27 cols, 54 nonzeros  0s
+Presolve reductions: rows 2(-40001); columns 27(-29976); nonzeros 54(-140958) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   2 rows
+   27 cols (11 binary, 16 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   54 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            148                Large        0      0      0         0     0.2s
+ J       0       0         0   0.00%   -inf            70                 Large        0      0      0         0     0.2s
+ S       0       0         0   0.00%   0               39               100.00%        0      0      0         0     0.2s
+         1       0         1 100.00%   38.05           39                 2.44%        0      0      0         4     0.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      39
+  Dual bound        39
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.00161964618243
+  Solution status   feasible
+                    39 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.16
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     4
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+Status: ok
+Solve time: 1.26s
+Objective value: 39.0
+Number of protected sectors: 39
+Zone 2: [(3, 95), (4, 94), (4, 95), (4, 96), (5, 93), (5, 94), (5, 95), (5, 96), (5, 97), (6, 94), (6, 95), (6, 96), (7, 95), (25, 79), (25, 80), (25, 81), (49, 60), (50, 60), (50, 61), (51, 60), (94, 59), (94, 60), (95, 5), (95, 13), (95, 48), (95, 65), (95, 77), (96, 36), (96, 80), (96, 95), (97, 25), (97, 36), (97, 51), (98, 12), (98, 21), (98, 75), (98, 98), (99, 41), (99, 47)]
+
+dataFileName = peninsule_2_100_100_2.txt_hard
+solutionValue = 39.0
+cpuTime = 1.710693597793579
+[solutionValidator] Objective check skipped (sector values unavailable).
+isFeasible = True
+Solution is written in the following file:  Solutions_2026-01-22_22-05-22/solutions/peninsule_2_100_100_2.txt_hard_V21_Z3.sol

@@ -23,13 +23,13 @@ MarineOpt solves variants of the marine protected areas design problem through m
 
 ## Required Python Packages
 
-| Package        | Install command              | Used in                                                                                                                                        | Purpose                                                                               |
-| -------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| `pyomo[appsi]` | `pip install "pyomo[appsi]"` | [Code/solver.py](Code/solver.py), [Code/models.py](Code/models.py)                                                                             | Builds and solves the MILP formulations (with optional Appsi HiGHS bridge).           |
-| `numpy`        | `pip install numpy`          | [Code/data.py](Code/data.py), [Code/helpersShowGrid.py](Code/helpersShowGrid.py)                                                               | Efficient grid/array manipulation when reading instances and drawing maps.            |
-| `matplotlib`   | `pip install matplotlib`     | [Code/data.py](Code/data.py), [Code/helpersShowGrid.py](Code/helpersShowGrid.py), [Code/scriptGraphicSummary.py](Code/scriptGraphicSummary.py) | 2D visualizations of grids, species distributions, and experiment performance curves. |
-| `pandas`       | `pip install pandas`         | [Code/scriptGraphicSummary.py](Code/scriptGraphicSummary.py)                                                                                   | Cleans experiment summaries before plotting cumulative CPU-time statistics.           |
-| `tabulate`     | `pip install tabulate`       | [Code/scriptExperiments.py](Code/scriptExperiments.py)                                                                                         | Nicely formats the failed experiment table (only when runs fail).                     |
+| Package        | Install command              | Used in                                                                                                                                        |
+| -------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pyomo[appsi]` | `pip install "pyomo[appsi]"` | [Code/solver.py](Code/solver.py), [Code/models.py](Code/models.py)                                                                             |
+| `numpy`        | `pip install numpy`          | [Code/data.py](Code/data.py), [Code/helpersShowGrid.py](Code/helpersShowGrid.py)                                                               |
+| `matplotlib`   | `pip install matplotlib`     | [Code/data.py](Code/data.py), [Code/helpersShowGrid.py](Code/helpersShowGrid.py), [Code/scriptGraphicSummary.py](Code/scriptGraphicSummary.py) |
+| `pandas`       | `pip install pandas`         | [Code/scriptGraphicSummary.py](Code/scriptGraphicSummary.py)                                                                                   |
+| `tabulate`     | `pip install tabulate`       | [Code/scriptExperiments.py](Code/scriptExperiments.py)                                                                                         |
 
 ## Optional / Feature-Specific Packages
 

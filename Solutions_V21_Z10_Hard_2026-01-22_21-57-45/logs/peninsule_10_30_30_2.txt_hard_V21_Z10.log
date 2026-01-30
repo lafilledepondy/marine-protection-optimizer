@@ -1,0 +1,17 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/peninsule_10_30_30_2.txt_hard.txt
+Problem version = 21
+Number of zones = 10
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_21-57-45/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+
+dataFileName = peninsule_10_30_30_2.txt_hard
+solutionValue = 62.0
+cpuTime = 1.1090741157531738
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_21-57-45/solutions/peninsule_10_30_30_2.txt_hard_V21_Z10.sol

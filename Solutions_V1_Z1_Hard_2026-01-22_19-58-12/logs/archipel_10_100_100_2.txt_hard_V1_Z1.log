@@ -1,0 +1,74 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/archipel_10_100_100_2.txt_hard.txt
+Problem version = 1
+Number of zones = 1
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_19-58-12/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 133 rows; 10000 cols; 98893 nonzeros; 10000 integer variables (10000 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+02, 4e+02]
+Presolving model
+10 rows, 9877 cols, 98770 nonzeros  0s
+10 rows, 9869 cols, 98690 nonzeros  9s
+Presolve reductions: rows 10(-123); columns 9869(-131); nonzeros 98690(-203) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   10 rows
+   9869 cols (9861 binary, 8 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   98690 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            9877               Large        0      0      0         0     9.8s
+ J       0       0         0   0.00%   -inf            9876               Large        0      0      0         0     9.8s
+ S       0       0         0   0.00%   0               64               100.00%        0      0      0         0     9.9s
+ R       0       0         0   0.00%   61.50390227     63                 2.37%        0      0      0        10     9.9s
+
+34.5% inactive integer columns, restarting
+Model after restart has 6 rows, 4856 cols (3561 bin., 1295 int., 0 impl., 0 cont., 0 dom.fix.), and 29136 nonzeros
+
+         0       0         0   0.00%   61.50390227     63                 2.37%        0      0      0        10    12.8s
+ R       0       0         0   0.00%   61.50390227     62                 0.80%        0      0      0        10    12.8s
+         1       0         1 100.00%   61.81666667     62                 0.30%        0      0      0        12    12.8s
+
+Solving report
+  Status            Optimal
+  Primal bound      62
+  Dual bound        62
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.0987678879555
+  Solution status   feasible
+                    62 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            12.79
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     12
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+
+dataFileName = archipel_10_100_100_2.txt_hard
+solutionValue = 62.0
+cpuTime = 13.17893671989441
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_19-58-12/solutions/archipel_10_100_100_2.txt_hard_V1_Z1.sol

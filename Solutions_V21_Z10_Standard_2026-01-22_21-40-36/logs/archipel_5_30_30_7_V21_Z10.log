@@ -1,0 +1,17 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/archipel_5_30_30_7.txt
+Problem version = 21
+Number of zones = 10
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_21-40-36/solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+
+dataFileName = archipel_5_30_30_7
+solutionValue = 9.0
+cpuTime = 1.0610909461975098
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_21-40-36/solutions/archipel_5_30_30_7_V21_Z10.sol

@@ -1,0 +1,17 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/standard/detroit_10_100_100_10.txt
+Problem version = 21
+Number of zones = 10
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_21-40-36/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+
+dataFileName = detroit_10_100_100_10
+solutionValue = 5.0
+cpuTime = 10.735244989395142
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_21-40-36/solutions/detroit_10_100_100_10_V21_Z10.sol

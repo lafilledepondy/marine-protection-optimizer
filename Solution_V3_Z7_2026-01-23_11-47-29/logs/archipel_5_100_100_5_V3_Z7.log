@@ -1,0 +1,34 @@
+----------- ARGUMENTS -----------
+Data file path = Data/Data/Experimentation\archipel_5_100_100_5.txt
+Problem version = 3
+Number of zones = 7
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = Experiments_V3_2026-01-23_11-47-29\solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+
+dataFileName = archipel_5_100_100_5
+solutionValue = -1
+cpuTime = 549.7370500564575
+isFeasible = True
+Solution is written in the following file:  Experiments_V3_2026-01-23_11-47-29\solutions\archipel_5_100_100_5_V3_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = Data/Data/Experimentation\archipel_5_100_100_5.txt
+Problem version = 3
+Number of zones = 7
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = Experiments_V3_2026-01-23_11-47-29\solutions
+------------------------------------
+Reading 5 species
+Solver appsi_highs is available.
+
+dataFileName = archipel_5_100_100_5
+solutionValue = -1
+cpuTime = 549.7370500564575
+isFeasible = True
+Solution is written in the following file:  Experiments_V3_2026-01-23_11-47-29\solutions\archipel_5_100_100_5_V3_Z7.sol

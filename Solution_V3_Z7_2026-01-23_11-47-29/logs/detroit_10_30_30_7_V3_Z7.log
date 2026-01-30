@@ -1,0 +1,34 @@
+----------- ARGUMENTS -----------
+Data file path = Data/Data/Experimentation\detroit_10_30_30_7.txt
+Problem version = 3
+Number of zones = 7
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = Experiments_V3_2026-01-23_11-47-29\solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+
+dataFileName = detroit_10_30_30_7
+solutionValue = -1
+cpuTime = 37.895477533340454
+isFeasible = True
+Solution is written in the following file:  Experiments_V3_2026-01-23_11-47-29\solutions\detroit_10_30_30_7_V3_Z7.sol
+----------- ARGUMENTS -----------
+Data file path = Data/Data/Experimentation\detroit_10_30_30_7.txt
+Problem version = 3
+Number of zones = 7
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = Experiments_V3_2026-01-23_11-47-29\solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+
+dataFileName = detroit_10_30_30_7
+solutionValue = -1
+cpuTime = 37.895477533340454
+isFeasible = True
+Solution is written in the following file:  Experiments_V3_2026-01-23_11-47-29\solutions\detroit_10_30_30_7_V3_Z7.sol

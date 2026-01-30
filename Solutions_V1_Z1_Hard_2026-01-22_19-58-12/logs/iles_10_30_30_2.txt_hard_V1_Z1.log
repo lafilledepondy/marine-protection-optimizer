@@ -1,0 +1,69 @@
+----------- ARGUMENTS -----------
+Data file path = ../Data/hard/iles_10_30_30_2.txt_hard.txt
+Problem version = 1
+Number of zones = 1
+Time limit = 300
+Verbose output = False
+Solver name = highs
+Solution folder path = ../Solutions_2026-01-22_19-58-12/solutions
+------------------------------------
+Reading 10 species
+Solver appsi_highs is available.
+Running HiGHS 1.12.0 (git hash: 755a8e0): Copyright (c) 2025 HiGHS under MIT licence terms
+MIP has 41 rows; 900 cols; 8721 nonzeros; 900 integer variables (900 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 2e+02]
+  Cost    [1e+00, 1e+00]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+02, 4e+02]
+Presolving model
+10 rows, 869 cols, 8690 nonzeros  0s
+10 rows, 869 cols, 8690 nonzeros  0s
+Presolve reductions: rows 10(-31); columns 869(-31); nonzeros 8690(-31) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   10 rows
+   869 cols (869 binary, 0 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   8690 nonzeros
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ u       0       0         0   0.00%   -inf            869                Large        0      0      0         0     0.1s
+ J       0       0         0   0.00%   -inf            868                Large        0      0      0         0     0.1s
+ S       0       0         0   0.00%   0               65               100.00%        0      0      0         0     0.1s
+ R       0       0         0   0.00%   62.19394728     64                 2.82%        0      0      0        13     0.1s
+ L       0       0         0   0.00%   62.46098239     63                 0.86%        6      1      0        19     0.1s
+         1       0         1 100.00%   62.62580645     63                 0.59%        6      1      0        50     0.1s
+
+Solving report
+  Status            Optimal
+  Primal bound      63
+  Dual bound        63
+  Gap               0% (tolerance: 0.01%)
+  P-D integral      0.00402213037095
+  Solution status   feasible
+                    63 (objective)
+                    0 (bound viol.)
+                    1.20735850349e-13 (int. viol.)
+                    0 (row viol.)
+  Timing            0.14
+  Max sub-MIP depth 4
+  Nodes             1
+  Repair LPs        0
+  LP iterations     50
+                    0 (strong br.)
+                    6 (separation)
+                    29 (heuristics)
+
+dataFileName = iles_10_30_30_2.txt_hard
+solutionValue = 62.99999999999988
+cpuTime = 0.17471885681152344
+isFeasible = True
+Solution is written in the following file:  ../Solutions_2026-01-22_19-58-12/solutions/iles_10_30_30_2.txt_hard_V1_Z1.sol
